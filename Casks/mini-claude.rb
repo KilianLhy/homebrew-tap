@@ -4,22 +4,22 @@ cask "mini-claude" do
 
   on_macos do
     on_intel do
-      sha256 "0a3fdcc22b74894438e7de5b7efa8a3b3d0bd1ffe2e1c1fd356dfdaafe14ef69"
+      sha256 "5b03cac460102034a469b79a4b62457d11d1d6a47fd2b26d3c54d1628ca95b62"
       url "https://github.com/KilianLhy/mini-claude-go/releases/download/v#{version}/mini-claude_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "50d03ff8ab8fcbc50a5d26ea9c3948731b024573421c9a36ae2116b88d975adf"
+      sha256 "d08abdb9250a38510fe7a0888d6c8d7efff11866e7a937e80b522291ac5f67e4"
       url "https://github.com/KilianLhy/mini-claude-go/releases/download/v#{version}/mini-claude_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "c7a68fdf1f05a88aeefe7fc4db93581ff70ff11fa9715e41d38f7672bedc931c"
+      sha256 "97b84a17c6366f9e90507aa4584dbcfe0b91a596ce594325ef82f0e398da18c5"
       url "https://github.com/KilianLhy/mini-claude-go/releases/download/v#{version}/mini-claude_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "da3f0b08e5295f3a1a80c15cdcb9e1e0378cc5caf66ffcf7eed452b8059ac2af"
+      sha256 "15c8d6056987e42c177ccab53dc74ebe71eefd9e88d8036b4a6a288af144c49e"
       url "https://github.com/KilianLhy/mini-claude-go/releases/download/v#{version}/mini-claude_Linux_arm64.tar.gz"
     end
   end
